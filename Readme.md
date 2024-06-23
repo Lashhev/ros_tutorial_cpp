@@ -15,3 +15,9 @@
     cd ros_tutorial_cpp
     catkin_create_pkg ros_tutorial_cpp --meta # создаем метапакет ros_tutorial_cpp
 ```
+
+## Запуск rosmaster
+
+```bash
+    roscore
+```
