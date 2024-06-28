@@ -5,6 +5,7 @@
 ```bash
     catkin_create_pkg simple_publisher roscpp std_msgs
 ```
+Подробнее здесь http://docs.voltbro.ru/starting-ros/developing/new-package.html
 
 ## Сборка пакета
 

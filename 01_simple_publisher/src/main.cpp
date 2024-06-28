@@ -1,5 +1,5 @@
 #include <ros/ros.h>         //  ROS API
-#include <std_msgs/String.h> // Подлючаем сообщения из стандартного пакета
+#include <std_msgs/String.h> // Подлючаем сообщения из стандартного пакета. Более подробно http://docs.voltbro.ru/starting-ros/messaging/message.html
 
 int main(int argc, char *argv[])
 {

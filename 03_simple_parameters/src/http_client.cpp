@@ -11,8 +11,9 @@ namespace rtcpp
         m_nh = std::make_unique<ros::NodeHandle>();
         m_pub = m_nh->advertise<DiagnosticArray>("/diagnostic", 10);
 
-        // https://wiki.ros.org/roscpp/Overview/Parameter%20Server
         ros::NodeHandle p_nh("~");
+        // Запрос параметров у сервера. Если нужные параметры не найдены будут выбраны значения по умолчанию
+        // Более подробно здесь // https://wiki.ros.org/roscpp/Overview/Parameter%20Server
         p_nh.param<std::string>("ip_address", m_param.ip_address, "127.0.0.1");
         p_nh.param<int>("port", m_param.port, 9001);
         p_nh.param<std::string>("request", m_param.request, "data");

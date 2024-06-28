@@ -1,7 +1,9 @@
 #pragma once
 #include <ros/ros.h> //  ROS API
 #include <memory>
-
+/**
+ * Эта демка демонстрирует взаимодействие ROS узла с сервером параметров на основе псевдо Http клиента.
+ */
 namespace rtcpp
 {
     class HttpClient

@@ -37,3 +37,9 @@
 ```bash
     rostopic hz /diagnostic
 ```
+
+## Запрсить список параметров
+
+```bash
+    rosparam get 
+```
