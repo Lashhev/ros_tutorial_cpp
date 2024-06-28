@@ -1,0 +1,8 @@
+<launch>
+  <!-- Запускаем два узла "talker" и "listener"-->
+  <!-- Более подробно о синтаксисе launch файлов http://docs.voltbro.ru/starting-ros/administrirovanie-ros/roslaunch.html"-->
+  
+  <node name="talker" pkg="simple_publisher" type="simple_publisher_node" output="screen"/>
+
+  <node name="listener" pkg="simple_subscriber" type="simple_subscriber_node" output="screen"/>
+</launch>

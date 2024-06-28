@@ -1,0 +1,4 @@
+string team
+---
+string manager
+fifa_msgs/Players players

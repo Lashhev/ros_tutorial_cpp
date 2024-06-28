@@ -1,0 +1,10 @@
+<launch>
+  <node pkg="simple_parameters_demo" type="http_client_node" name="http_client" output="screen" >
+      <!-- Передаем требуемые этим узлом параметры -->
+      <param name="ip_address" value="10.12.10.128" />
+      <param name="port" value="9002" />
+      <param name="request" value="data" />
+      <!-- Можно переопределять любые имена узлов и топиков с помощью команды remap -->
+      <remap from="/diagnostic" to="/diag"/>
+    </node>
+</launch>

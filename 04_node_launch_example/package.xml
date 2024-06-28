@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>node_launch_example</name>
+  <version>0.0.0</version>
+  <description>The node_launch_example package</description>
+
+  <maintainer email="vscode@todo.todo">vscode</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>roscpp</exec_depend> <!-- Наши предыдущие пакеты указаны в зависимостях так как мы от сюда можем запускать их ноды-->
+  <exec_depend>simple_parameters_demo</exec_depend>
+  <exec_depend>simple_publisher</exec_depend>
+  <exec_depend>simple_subscriber</exec_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
